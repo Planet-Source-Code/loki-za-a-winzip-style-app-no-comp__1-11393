@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Program Files\Microsoft Visual Studio\VB98\myprojs\smartbasket\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\WINNT\system32\MSCOMCTL.OCX=
+E:\WINNT\system32\COMDLG32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+F:\MyApps\SmartBasket\sbil.icl=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+F:\MyApps\SmartBasket\smartbasket.exe=Yes
+E:\WINNT\system32\msvbvm60.dll=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\COMDLG32.OCX=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\MyApps\SmartBasket\sbil.icl=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\MyApps\SmartBasket\smartbasket.exe=$(AppPath)
+E:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\MyApps\SmartBasket\sbil.icl=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\MyApps\SmartBasket\smartbasket.exe=No
+F:\MyApps\SmartBasket\sbil.icl=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SmartBasket
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SmartBasket
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SmartBasket]
+Icon1=SmartBasket.exe
+Title1=SmartBasket
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Program Files\Microsoft Visual Studio\VB98\myprojs\smartbasket\Package
+ProjectFolder=D:\Program Files\Microsoft Visual Studio\VB98\myprojs\smartbasket
+ServerSideCab=
+File1=D:\Program Files\Microsoft Visual Studio\VB98\myprojs\smartbasket\Package\setup.exe
+File2=D:\Program Files\Microsoft Visual Studio\VB98\myprojs\smartbasket\Package\Setup.Lst
+File3=D:\Program Files\Microsoft Visual Studio\VB98\myprojs\smartbasket\Package\SmartBasket.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
